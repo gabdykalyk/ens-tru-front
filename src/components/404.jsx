@@ -1,8 +1,12 @@
+import style from './404.module.scss'
+
 const Error404 = () => {
     return (
-        <h1>
-            Упс, такой страницы не существует
-        </h1>
+        <div className={style.error}>
+            <div>
+                <img src={require('../images/404.webp')} />
+            </div>
+        </div>
     )
 }
 
