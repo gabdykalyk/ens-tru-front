@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux';
 import { logout } from '../../store/authorizationSlice';
 import { useNavigate } from "react-router-dom";
 
-export default function NewCodesPage() {
+export default function MainPage() {
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
