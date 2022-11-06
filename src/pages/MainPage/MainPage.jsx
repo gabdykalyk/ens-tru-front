@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { logout } from '../../store/authorizationSlice';
 import { useNavigate } from "react-router-dom";
+import Header from '../../components/Header/Header';
 
 export default function MainPage() {
     const dispatch = useDispatch();
@@ -13,7 +14,7 @@ export default function MainPage() {
 
     return (
         <div>
-            Hello
+            <Header />
             <button onClick={logoutBtn}>
                 LogOut
             </button>

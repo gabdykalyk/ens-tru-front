@@ -38,8 +38,6 @@ export default function LogInPage() {
 
     };
 
-    console.log(document.cookie)
-
     return (
         <div> {isAuth ?
             <Navigate to="/" />

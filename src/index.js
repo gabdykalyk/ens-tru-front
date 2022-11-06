@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { store } from './store';
 import reportWebVitals from './reportWebVitals';
-import './index.css';
+import './index.scss';
 import MainRouter from './router/router';
 
 const container = document.getElementById('root');
