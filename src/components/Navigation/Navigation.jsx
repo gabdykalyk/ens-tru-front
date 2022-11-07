@@ -1,13 +1,26 @@
 import { Link } from "react-router-dom";
+import { ReactComponent as ArrowDown } from '../../images/arrowdown.svg';
+import styles from "./Navigation.module.scss"
 
 const Navigation = () => {
     return (
-        <div>
-            <Link to="/">Поиск</Link>
-            <Link to="/">Поставщикам</Link>
-            <Link to="/">Инструменты</Link>
-            <Link to="/">Контакты</Link>
-        </div>
+        <ul className={styles.nav}>
+            <li>
+                <Link to="/">Поиск</Link>
+            </li>
+            <li>
+                <Link to="/">Поставщикам</Link>
+            </li>
+            <li className={styles.drop_down}>
+                <Link to="/">Инструменты</Link>
+                <div className={styles.arrow}>
+                    <ArrowDown />
+                </div>
+            </li>
+            <li>
+                <Link to="/">Контакты</Link>
+            </li>
+        </ul>
     )
 }
 

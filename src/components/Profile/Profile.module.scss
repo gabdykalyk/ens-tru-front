@@ -1,0 +1,28 @@
+.profile {
+    display: flex;
+    align-items: center;
+    color: #0184FF;
+
+    .flag {
+        height: 18px;
+    }
+
+    .lang {
+        margin: 0 8px;
+    }
+
+    .dropdownbtn {
+        position: relative;
+        .btn {
+            background-color: unset;
+            outline: none;
+            border: none;
+            cursor: pointer;
+        }
+        .dropdown {
+            position: absolute;
+            background-color: rgb(208, 205, 205);
+            padding: 5px;
+        }
+    }   
+}

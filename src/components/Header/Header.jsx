@@ -1,6 +1,6 @@
 import Navigation from '../Navigation/Navigation';
 import Sidebar from '../Sidebar/Sidebar';
-import style from './Header.module.css'
+import style from './Header.module.scss'
 
 const Header = () => {
     return (

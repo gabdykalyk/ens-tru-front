@@ -1,0 +1,22 @@
+.nav {
+    display: flex;
+    align-items: center;
+
+    li {
+        margin-right: 32px;
+        a {
+            color: #0184FF;
+        }
+    }
+
+    .drop_down {
+        display: flex;
+        align-items: center;
+
+        
+    }
+}
+
+.arrow {
+    margin-left: 8px;
+}
