@@ -1,0 +1,23 @@
+.wrapper {
+    background: #FAFCFE;
+    border: 1px solid #425F80;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding: 8px 8px 8px 20px;
+    width: 100%;
+
+    input {
+        background-color: unset;
+        border: none;
+        color: #7893B0;
+        font-family: 'InterRegular', sans-serif;
+        font-size: 16px;
+        outline: none;
+
+        &::placeholder {
+            color: #7893B0;
+        }
+    }
+}
