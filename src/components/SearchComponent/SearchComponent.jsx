@@ -10,6 +10,9 @@ const SearchComponent = () => {
             <div>
                 <SearchInput />
             </div>
+            <div className={styles.warning}>
+                Внимание! Коды действительны до 31 декабря 2017 года
+            </div>
         </div>
     )
 }

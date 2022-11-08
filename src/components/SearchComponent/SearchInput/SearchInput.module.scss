@@ -7,6 +7,7 @@
     margin-top: 16px;
     padding: 8px 8px 8px 20px;
     width: 100%;
+    margin-bottom: 16px;
 
     input {
         background-color: unset;
@@ -15,9 +16,28 @@
         font-family: 'InterRegular', sans-serif;
         font-size: 16px;
         outline: none;
+        width: 100%;
 
         &::placeholder {
             color: #7893B0;
         }
     }
+}
+
+.checkbox_wrapper {
+    display: flex;
+}
+
+.separator {
+    margin-right: 18px;
+}
+
+.tru_type {
+    font-size: 14px;
+    display: flex;
+}
+
+.ml_12 {
+    margin-left: 12px;
+    cursor: pointer;
 }

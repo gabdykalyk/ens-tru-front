@@ -1,0 +1,32 @@
+.checkbox_custom {
+    width: 19.5px;
+    height: 19.5px;
+    border: 2px solid #252525;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 18px;
+
+    .checkbox_mark {
+        position: absolute;
+        top: 62%;
+        left: 49%;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+}
+
+label .checkbox_custom .mark {
+    display: block;
+}
+
+.checkbox_input {
+    display: none;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 18px;
+}
