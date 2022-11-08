@@ -1,4 +1,5 @@
 import Header from '../../components/Header/Header';
+import NotificationComponent from '../../components/Notification/NotificationComponent';
 import SearchComponent from '../../components/SearchComponent/SearchComponent';
 
 export default function MainPage() {
@@ -6,6 +7,7 @@ export default function MainPage() {
         <div>
             <Header />
             <SearchComponent />
+            <NotificationComponent />
         </div>
     )
 }

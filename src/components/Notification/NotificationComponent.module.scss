@@ -1,0 +1,22 @@
+.notification {
+    background-color: #E2EBF3;
+    border-radius: 12px;
+    font-family: 'InterMedium';
+    font-size: 16px;
+    margin: 32px auto 0;
+    max-width: 1176px;
+    padding: 32px 32px 32px 72px;
+    position: relative;
+    line-height: 150%;
+
+    &::before {
+        background-color: #57AC57;;
+        border-radius: 100000px;
+        content: '';
+        display: block;
+        height: 480px;
+        left: 32px;
+        position: absolute;
+        width: 8px;
+    }
+}
