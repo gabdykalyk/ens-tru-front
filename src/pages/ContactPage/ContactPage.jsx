@@ -54,7 +54,7 @@ const ContactsPage = () => {
                     logo={<PhoneLogo />}
                     title="По вопросам заключения договора"
                     text="Касенгалиева Гульнара"
-                    phone="Касенгалиева Гульнара"
+                    phone="8-7172-57-02-75 (вн. 128)"
                     email="g.kassengaliyeva@skc.kz"
                 />
                 <ContactsComponent
