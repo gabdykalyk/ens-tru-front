@@ -1,0 +1,45 @@
+.contacts {
+    background-color: #FAFCFE;
+    border-radius: 12px;
+    display: flex;
+    width: 380px;
+    height: 134px;
+    padding: 16px 16px 16px 26px;
+    margin-bottom: 30px;
+
+    .logo {
+        margin-right: 26px;
+        margin-top: 10px;
+    }
+
+    .wrapper {
+        max-width: 270px;
+
+        .items {
+            line-height: 150%;
+            margin-bottom: 8px;
+        }
+
+        .title {
+            color: #252525;
+            font-size: 12px;
+        }
+
+        .text {
+            color: #252525;
+            font-family: 'InterSemiBold';
+            font-size: 16px;
+        }
+
+        .email {
+            color:  #0184FF;;
+            font-family: 'InterSemiBold';
+            font-size: 16px;
+        }
+
+        .subtitle {
+            color: #252525;
+            font-size: 16px;
+        }
+    }   
+}

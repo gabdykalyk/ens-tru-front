@@ -18,7 +18,7 @@ const Navigation = () => {
                 </div>
             </li>
             <li>
-                <Link to="/">Контакты</Link>
+                <Link to="/contacts">Контакты</Link>
             </li>
         </ul>
     )
