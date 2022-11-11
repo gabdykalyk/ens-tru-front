@@ -4,7 +4,6 @@ import styles from './Checkbox.module.scss'
 
 const CheckboxComponent = (props) => {
     const [isChecked, setIsChecked] = useState(false);
-    console.log(isChecked)
 
     return(
         <div>

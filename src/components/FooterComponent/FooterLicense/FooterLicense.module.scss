@@ -1,0 +1,21 @@
+.license {
+    align-items: center;
+    background-color: #425F80;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 132px;
+
+    .title {
+        color: #E2EBF3;
+    }
+
+    .links {
+        align-items: center;
+        color: #ffffff;
+        display: flex;
+
+        .link {
+            margin-right: 40px;
+        }
+    }
+}

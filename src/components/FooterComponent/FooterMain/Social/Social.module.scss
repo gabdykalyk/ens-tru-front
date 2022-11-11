@@ -1,0 +1,19 @@
+.logo {
+    margin-bottom: 15px;
+}
+
+.title {
+    color: #7893B0;
+    margin-bottom: 15px;
+    max-width: 290px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+
+    .item {
+        cursor: pointer;
+        margin-right: 15px;
+    }
+}
